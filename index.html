@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dongzi Wen | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for Dongzi Wen featuring projects, experience, and contact information."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand">Dongzi Wen</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero container" id="about">
+        <div class="hero-copy">
+          <p class="eyebrow">Designer • Developer • Problem Solver</p>
+          <h1>Hi, I'm Dongzi Wen.</h1>
+          <p class="bio">
+            I build clean, modern digital experiences that turn ideas into products
+            people enjoy using. I love blending visual design with thoughtful code to
+            create memorable user journeys.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+          <ul class="quick-stats" aria-label="Key skills">
+            <li>UI Design</li>
+            <li>Front-End Development</li>
+            <li>Product Thinking</li>
+          </ul>
+        </div>
+
+        <div class="hero-card" aria-label="Profile card">
+          <div class="avatar">DW</div>
+          <div class="card-content">
+            <span class="badge">Available for work</span>
+            <h2>Based in Seattle, WA</h2>
+            <p>Creating polished web experiences for startups, teams, and brands.</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="projects section" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Work</p>
+            <h2>Projects</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-image image-one"></div>
+              <div class="project-body">
+                <span class="tag">Web App</span>
+                <h3>Pulse Analytics Dashboard</h3>
+                <p>
+                  A product analytics dashboard that helps teams track engagement,
+                  funnel performance, and campaign ROI in real time.
+                </p>
+                <div class="meta">
+                  <span>React</span>
+                  <span>Charts</span>
+                  <span>UX Research</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image image-two"></div>
+              <div class="project-body">
+                <span class="tag">E-commerce</span>
+                <h3>Northstar Market</h3>
+                <p>
+                  A modern storefront experience focused on conversion, product
+                  storytelling, and seamless mobile shopping.
+                </p>
+                <div class="meta">
+                  <span>Shopify</span>
+                  <span>Branding</span>
+                  <span>Conversion</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image image-three"></div>
+              <div class="project-body">
+                <span class="tag">Productivity</span>
+                <h3>FocusFlow Planner</h3>
+                <p>
+                  A habit and task tracking app designed to reduce overwhelm and keep
+                  daily routines clear and actionable.
+                </p>
+                <div class="meta">
+                  <span>JavaScript</span>
+                  <span>Product Design</span>
+                  <span>Accessibility</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-summary section">
+        <div class="container split-layout">
+          <div>
+            <p class="eyebrow">About Me</p>
+            <h2>I create digital products that feel effortless.</h2>
+          </div>
+          <p>
+            I work at the intersection of design and development, bringing clarity,
+            craft, and business thinking to every screen I touch. My process combines
+            user-centered design, thoughtful prototyping, and clean front-end
+            implementation.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-content">
+        <div>
+          <p class="eyebrow">Let’s work together</p>
+          <h2>Contact</h2>
+        </div>
+        <div class="contact-list">
+          <a href="mailto:hello@yourname.dev">hello@yourname.dev</a>
+          <a href="tel:+12065550189">+1 (206) 555-0189</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+      <p class="copyright">© <span id="year"></span> Dongzi Wen</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
